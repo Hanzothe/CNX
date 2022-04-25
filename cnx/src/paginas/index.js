@@ -1,19 +1,8 @@
 import React from "react";
+import Box from "../components/container/folha";
 
 const Home = () => {
-  return (
-    <div
-      style={{
-        color: "red",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
-    >
-      <h1>Home</h1>
-    </div>
-  );
+  return <Box />;
 };
 
 export default Home;
