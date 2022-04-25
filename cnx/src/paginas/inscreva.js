@@ -1,19 +1,8 @@
 import React from "react";
+import Box from "../components/container/folha";
 
 const Inscreva = () => {
-  return (
-    <div
-      style={{
-        color: "red",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
-    >
-      <h1>Inscreva-se</h1>
-    </div>
-  );
+  return <Box />;
 };
 
 export default Inscreva;
