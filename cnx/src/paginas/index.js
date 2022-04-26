@@ -1,8 +1,16 @@
 import React from "react";
-import Box from "../components/container/folha";
+import Box from "../components/container/Box";
+import GreenBox from "../components/container/GreenBox";
+import RedBox from "../components/container/RedBox";
 
 const Home = () => {
-  return <Box />;
+  return (
+    <>
+      <Box />
+      <GreenBox />
+      <RedBox />
+    </>
+  );
 };
 
 export default Home;

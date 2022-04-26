@@ -1,5 +1,5 @@
 import React from "react";
-import Box from "../components/container/folha";
+import Box from "../components/container/Box";
 
 const Inscreva = () => {
   return <Box />;
