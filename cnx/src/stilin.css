@@ -8,3 +8,15 @@ h1 {
 
 font-family: "PT Sans", sans-serif;
 }
+.Background{
+    
+
+background-image: url('backjeny.jpg');
+
+background-size: "cover";
+height: 50%;
+weight: 30%;
+margin-top: -70px;
+font-size:50px;
+background-repeat:no-repeat;
+}
