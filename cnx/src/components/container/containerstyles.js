@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backjeny from "../container/backjeny.jpg";
 
 const Container = styled.div`
   width: 100%;
@@ -16,6 +17,10 @@ const Container = styled.div`
 
 const GreenContainer = styled(Container)`
   background-color: green;
+  height: 50em;
+  width: 65%;
+  display: flex;
+  font-size: 11px;
 `;
 
 const RedContainer = styled(Container)`

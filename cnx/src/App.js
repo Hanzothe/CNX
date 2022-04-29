@@ -23,9 +23,6 @@ function App() {
           <Route path="/login" element={<Login />} exact />
         </Routes>
       </Router>
-      <div className="Background">
-        <h1>Teste1</h1>
-      </div>
     </>
   );
 }
