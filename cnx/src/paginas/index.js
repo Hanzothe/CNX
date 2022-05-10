@@ -3,20 +3,14 @@ import GreenBox from "../components/container/GreenBox";
 import RedBox from "../components/container/RedBox";
 import { Parallax } from "react-parallax";
 import backcnx from "../backcnx.jpg";
-
-const inlineStyle = {
-  background: "white",
-  left: "50%",
-  top: "50%",
-  position: "absolute",
-};
+import "../global.css";
 
 const Home = () => {
   return (
     <>
       <Parallax bgImage={backcnx}>
         <div style={{ height: 500 }}>
-          <div style={inlineStyle}>Ainda a pensar no que escrever aqui </div>
+          <h1 class="text-3xl font-bold underline text-white">Hello world!</h1>
         </div>
       </Parallax>
       <GreenBox />

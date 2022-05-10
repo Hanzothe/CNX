@@ -7,7 +7,7 @@ import Planos from "./paginas/planos";
 import Eventos from "./paginas/eventos";
 import Inscreva from "./paginas/inscreva";
 import Login from "./paginas/login";
-import "./stilin.css";
+import "./global.css";
 
 function App() {
   return (
